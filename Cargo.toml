@@ -1,0 +1,20 @@
+[package]
+name = "nfcfyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "NFC chip reference, NDEF type lookup, and contactless standard encyclopedia -- async API client for nfcfyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/nfcfyi-rs"
+homepage = "https://nfcfyi.com"
+documentation = "https://docs.rs/nfcfyi"
+readme = "README.md"
+keywords = ["nfc", "ndef", "contactless", "iso-14443", "api-client"]
+categories = ["api-bindings", "data-structures"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
