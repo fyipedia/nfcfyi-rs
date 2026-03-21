@@ -42,7 +42,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 - **API**: [nfcfyi.com/api/v1/](https://nfcfyi.com/api/v1/)
 - **OpenAPI**: [nfcfyi.com/api/v1/schema/](https://nfcfyi.com/api/v1/schema/)
 - **Glossary**: [nfcfyi.com/glossary/](https://nfcfyi.com/glossary/)
-- **Guides**: [nfcfyi.com/guides/](https://nfcfyi.com/guides/)
+- **Guides**: [nfcfyi.com/guide/](https://nfcfyi.com/guide/)
 - **Tools**: [nfcfyi.com/tools/](https://nfcfyi.com/tools/)
 Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
